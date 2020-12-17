@@ -284,6 +284,7 @@ class Bubble extends StatelessWidget {
     double nipRadius,
     bool stick,
     Color color,
+    BoxDecoration decoration,
     double elevation,
     Color shadowColor,
     BubbleEdges padding,
@@ -326,6 +327,7 @@ class Bubble extends StatelessWidget {
 
   Widget build(context) {
     return Container(
+      decoration: decoration,
       alignment: alignment,
       margin: margin?.edgeInsets,
       child: CustomPaint(

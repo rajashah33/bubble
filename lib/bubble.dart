@@ -319,6 +319,7 @@ class Bubble extends StatelessWidget {
 
   final Widget child;
   final Color color;
+  final BoxDecoration decoration;
   final double elevation;
   final Color shadowColor;
   final BubbleEdges margin;

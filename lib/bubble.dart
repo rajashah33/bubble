@@ -300,6 +300,7 @@ class Bubble extends StatelessWidget {
           right: margin?.right ?? style?.margin?.right ?? 0.0,
           bottom: margin?.bottom ?? style?.margin?.bottom ?? 0.0,
         ),
+        decoration= decoration,
         alignment = alignment ?? style?.alignment ?? null,
         bubbleClipper = BubbleClipper(
           radius: radius ?? style?.radius ?? Radius.circular(6.0),
